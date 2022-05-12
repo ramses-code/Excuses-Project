@@ -5,36 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Excuses</title>
     <link rel="stylesheet" href="style.css" />
-    <script>
-      window.onload = function() {
-        //write your code here
-        let who = ["the dog", "my grandma", "his turtle", "my bird"];
-        let what = ["eat", "pissed", "crushed", "broked"];
-        let when = [
-          "before the class",
-          "right in time",
-          "when I finished",
-          "during my lunch"
-        ];
-
-        let word1 = who[Math.floor(Math.random() * who.length)];
-        let word2 = what[Math.floor(Math.random() * what.length)];
-        let word3 = when[Math.floor(Math.random() * when.length)];
-
-        var excuse = "..." + word1 + " " + word2 + " " + word3;
-        return excuse;
-      };
-      function myFunction() {
-        document.getElementById("excuse").innerHTML = onload();
-      }
-    </script>
+    <script src="app.js"></script>
   </head>
   <body>
     <div>
-      <p><strong>OMG! you will not belive me but...</strong></p>
-      <p id="excuse"><strong>My dog eat my homework</strong></p>
-      <button type="button" onclick="myFunction()">an excuse</button>
+      <p>OMG! you will not belive me but...</p>
+      <p id="excuse">My dog ate my homework</p>
     </div>
-    <script src="app.js"></script>
   </body>
 </html>

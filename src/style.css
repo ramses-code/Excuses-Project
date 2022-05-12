@@ -9,14 +9,5 @@ div {
 }
 p {
   font-size: 300%;
-}
-button {
-  background-color: azure;
-  border-radius: 12%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  padding: 20px;
+  font-weight: bold;
 }

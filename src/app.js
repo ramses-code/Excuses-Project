@@ -20,6 +20,5 @@ window.onload = function() {
   var excuse = "..." + word1 + " " + word2 + " " + word3;
   return excuse;
 };
-function myFunction() {
-  document.getElementById("excuse").innerHTML = onload();
-}
+
+document.getElementById("excuse").innerHTML = onload();
