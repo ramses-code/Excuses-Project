@@ -4,13 +4,14 @@ import "./style.css";
 
 window.onload = function() {
   //write your code here
-  let who = ["the dog", "my grandma", "his turtle", "my bird"];
-  let what = ["eat", "pissed", "crushed", "broked"];
+  let who = ["the dog", "my grandma", "his turtle", "my bird", "my dog"];
+  let what = ["eat", "pissed", "crushed", "broked", "ate"];
   let when = [
     "before the class",
     "right in time",
     "when I finished",
-    "during my lunch"
+    "during my lunch",
+    "my homework"
   ];
 
   let word1 = who[Math.floor(Math.random() * who.length)];
